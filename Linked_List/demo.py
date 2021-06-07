@@ -7,7 +7,7 @@ class LinkedList:
   def __init__(self):
     self.head = None
   
-  def print_list(self):
+  def traverse_list(self):
     current_val = self.head
     while current_val != None:
       print(current_val)
