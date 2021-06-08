@@ -9,7 +9,7 @@ class LinkedList:
   
   def traverse_list(self):
     current_val = self.head
-    while current_val != None:
+    while current_val:
       print(current_val)
       current_val = current_val.next_node
     
