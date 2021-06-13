@@ -120,3 +120,19 @@ class MyLinkedList:
 
             i += 1
         self.head = new_list.head
+
+if __name__ == "__main__":
+    #[[],[7],[7],[9],[8],[6],[0],[5],[0],[2],[5],[4]]
+    obj = MyLinkedList()
+    obj.addAtHead(7)
+    obj.addAtTail(7)
+    obj.addAtHead(9)
+    obj.addAtTail(8)
+    obj.addAtHead(6)
+    obj.addAtHead(0)
+    print("obj.get(5): ", obj.get(5))
+    obj.addAtHead(0)
+    print("obj.get(2): ", obj.get(2))
+    print("obj.get(5): ", obj.get(5))
+    obj.addAtTail(4)
+    obj.traverseList()
