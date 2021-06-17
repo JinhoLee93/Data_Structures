@@ -11,6 +11,15 @@ class MyLinkedList:
         Initialize your data structure here.
         """
         self.head = Node(None)
+        
+    def reverse(self, list): 
+        cur = list
+        prv = None
+        
+        while cur:
+            nxt = cur.next
+            prv = nxt
+            cur = nxt
 
     def get(self, index: int) -> int:
         """
