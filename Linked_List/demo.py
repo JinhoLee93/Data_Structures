@@ -19,7 +19,7 @@ class MyLinkedList:
         while cur:
             nxt = cur.next
             cur.next = prv
-            prv = nxt
+            prv = cur
             cur = nxt
         
         cur = prv
