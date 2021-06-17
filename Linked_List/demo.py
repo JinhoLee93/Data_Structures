@@ -18,8 +18,13 @@ class MyLinkedList:
         
         while cur:
             nxt = cur.next
+            cur.next = prv
             prv = nxt
             cur = nxt
+        
+        cur = prv
+        
+        return cur
 
     def get(self, index: int) -> int:
         """
