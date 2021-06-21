@@ -7,6 +7,5 @@ Class TreeNode:
 
 Class Tree:
   def __init__(self):
-    root = None
+    root = TreeNode(None)
     
- 
