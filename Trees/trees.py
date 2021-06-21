@@ -14,3 +14,8 @@ Class Tree:
       return inorder_traversal(root.left) + [root.val] + inorder_traversal(root.right)
     else:
       return []
+
+
+if __name__ == "main":
+  tree = Tree()
+  
